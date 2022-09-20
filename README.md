@@ -13,9 +13,13 @@ JsonPowerDB is a Real-time, High Performance, Lightweight and Simple to Use, Res
 It consists of the following pages:
 <ul><li><B>Home page:</B>
 This allows the user/developer to enter their token.<br>
-<img src=""></li>
+<img src="csvDashboard_lockscreen.jpg"></li>
 <li><B>Form page:</B>
-This allows the user to enter information about the files to be imported.<br>
+This allows the user to enter information about the files to be imported.<br><img src="csvDashboard_form1.jpg">
 Users can upload Single/Multiple File(s). Fields mark with Asterisk(*) are compulsory fields while other fields may have default or optional value if provided.
+<img src="csvDashboard_form2.jpg">
+On submitting, the user gets notified of the query status.<img src="csvDashboard_formSub.jpg">
+If the import command get successfully executed, the files get uploaded to the provided database and relation.<img src="csvDashboard_result.jpg">
+Reset Button will reload the entire page.
 </li></ul>
 These pages have been logically linked using hyperlinks with proper page-flow. jpdb-commons.js and other css and js files have been imported in the project for easy accesss.</p>
